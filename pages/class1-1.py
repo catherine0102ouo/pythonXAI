@@ -11,3 +11,4 @@ print("Hello World!")#print是在終端機顯示文字的指令
 
 ##test
 ##haha test3
+123
