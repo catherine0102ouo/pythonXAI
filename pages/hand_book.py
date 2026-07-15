@@ -1260,7 +1260,7 @@ for item in L:
 5. **`append()` 新增、`remove()` 刪指定值、`pop()` 刪指定位置、`sort()` 排序，是 List 最常用的四個功能。**
 """)
 
-with st.expander("Class1課堂筆記"):
+with st.expander("Class3課堂筆記"):
     st.write(
     """# Python 學習筆記（第 3 天）
 
