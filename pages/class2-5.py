@@ -44,5 +44,14 @@ print(L)
 #sort:將List中的元素進行排序,預設是由小到大(升序排列)
 #注意:這個方法會直接修改原本的List,不會產生新的List
 L=[1,3,2,4,5]
-L.short()
+L.sort()
 print(L)
+#list 走訪元素
+#可以透過取得index的方式來找到list中的資料
+#也可以直接把list當作一個範圍來取得資料
+#這兩種方式都可以,但是看使用的情境是否會需要index來決定要用哪一種方式
+L=[1,2,3,"a","b","c"]
+for i in range(0,len(L),2):
+    print(L[i])
+for i in L:
+    print(i)
